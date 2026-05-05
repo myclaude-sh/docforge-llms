@@ -1,36 +1,22 @@
-# Docforge Llms
-
-[![Available on MyClaude](https://myclaude.sh/badge/available.svg)](https://myclaude.sh/p/docforge-llms)
-
-Project canonical Markdown docs into AI-native projections — llms.txt (Howard 2024 spec), llms-full.txt (segmented), AGENTS.md (AAIF/Linux Foundation Dec 2025), CLAUDE.md (Anthropic verbatim, ≤200 lines). Includes MCP server scaffold (docs as typed resources), cache-aware payload ordering for 90% prompt-cache savings, RAG-friendly chunkability lint, audience-graded projections.
-
-| | |
-|---|---|
-| **Category** | skills |
-| **Version** | 0.1.0 |
-| **Author** | [@l0z4n0](https://myclaude.sh/u/l0z4n0) |
-| **License** | Proprietary |
-| **Price** | Free |
-
-## Installation
-
-### Via MyClaude CLI
-```bash
-myclaude install docforge-llms
-```
-
-### Via Vercel Skills
-```bash
-npx skills add myclaude-sh/docforge-llms
-```
-
-### Via Claude Code Plugin System
-```
-/plugin marketplace add myclaude-sh/registry
-/plugin install docforge-llms@myclaude-sh
-```
-
-## About
+---
+name: docforge-llms
+display_name: Docforge Llms
+description: "Project canonical Markdown docs into AI-native projections — llms.txt (Howard 2024 spec), llms-full.txt (segmented), AGENTS.md (AAIF/Linux Foundation Dec 2025), CLAUDE.md (Anthropic verbatim, ≤200 lin"
+version: 0.1.0
+author: l0z4n0
+license: Proprietary
+tags:
+  - "llms.txt"
+  - "AGENTS.md"
+  - "CLAUDE.md"
+  - "MCP"
+  - "RAG"
+  - "prompt-cache"
+  - "documentation"
+  - "dual-output"
+marketplace_url: "https://myclaude.sh/p/docforge-llms"
+user-invocable: true
+---
 
 # `docforge-llms` — sub-skill of `docforge`
 
@@ -122,13 +108,3 @@ See `SKILL.md §1` for the full table.
 
 <sub>Built with MyClaude Studio Engine</sub>
 
-
-## Tags
-
-`llms.txt` `AGENTS.md` `CLAUDE.md` `MCP` `RAG` `prompt-cache` `documentation` `dual-output`
-
----
-
-*Published on [MyClaude Marketplace](https://myclaude.sh/p/docforge-llms) — the curated marketplace for the Claude Code ecosystem.*
-
-*This repository is automatically mirrored from MyClaude. To publish updates, use `myclaude publish`.*
